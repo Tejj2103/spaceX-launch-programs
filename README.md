@@ -39,5 +39,6 @@ To fetch the data from api "https://api.spacexdata.com/v3/launches?limit=100", i
 3. Used redux store for state management
 4. No comments used where not required
 
-
+## Application Endpoint
+https://aps-school-807c7.uc.r.appspot.com/
 
