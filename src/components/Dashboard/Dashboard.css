@@ -1,0 +1,161 @@
+.DashBoard {
+    margin-top: 76px;
+    padding: 4px;
+    background-color: rgb(231, 231, 228);
+}
+
+.Contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.filters{
+    align-items: center;
+    height: auto;
+    margin: 6px;
+    flex: 0 0 15em;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.Cards{
+    border-radius: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    text-align: center;
+}
+
+
+
+
+
+.filters {
+    text-align: center;
+}
+
+
+
+.filterOption{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    margin: 8px;
+    justify-content: space-between;
+}
+
+
+.year{
+    width: 40%;
+    height: 35px;
+    margin: 8px;
+}
+
+.active{
+    background-color: blue;
+}
+
+button{
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(206, 248, 165);
+}
+
+button:hover{
+    background-color: rgb(94, 189, 0);
+    color:white;
+}
+
+
+.clicked{
+    width: 40%;
+    height: 35px;
+    margin: 8px;
+    color: white;
+    background-color: yellowgreen;
+}
+
+.unclicked{
+    width: 40%;
+    height: 35px;
+    margin: 8px;
+    color: white;
+    background-color: rgb(97, 145, 3);
+}
+
+.credts{
+    text-align: center;
+}
+
+@media only screen and (device-width: 768px) {
+    .Contents{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .filters{
+        align-items: center;
+        height: auto;
+        margin: 6px;
+        flex: 0 0 14em;
+        background-color: white;
+        border-radius: 8px;
+    }
+    
+    .Cards{
+        border-radius: 8px;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: flex-start;
+        text-align: center;
+    }
+  }
+
+
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .Contents{
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+    }
+    
+    .filters{
+        align-items: center;
+        height: auto;
+        margin: 6px;
+        flex: 0 0 14em;
+        background-color: white;
+        border-radius: 8px;
+    }
+}
+
+.DashboardTitle{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 245, 245);
+}
+.filterView{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 12, 12);
+    border-radius: 8px;
+}
+.filterView span{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin-left:12px ;
+}
+
+.clearfilter{
+    margin-top: 6px;
+    margin-right: 6px;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+}

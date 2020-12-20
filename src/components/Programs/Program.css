@@ -1,0 +1,55 @@
+.col{
+    margin: 4px;
+    padding: 12px;
+    width: 240px;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  .cardImage{
+    width: 200px;
+    border-radius: 8px;
+    height: 200px;
+    background-color: rgb(241, 241, 241);
+}
+
+.MissionName{
+    color: blue;
+    font-weight: bold;
+}
+
+.CardInfo{
+    text-align: left;
+    margin: 2px;
+    display: block;
+}
+
+span{
+    color: blue;
+}
+
+@media only screen and (device-width: 768px) {
+    .col{
+        margin: 4px;
+        padding: 12px;
+        width: 230px;
+        height: auto;
+        background-color: white;
+        border-radius: 8px;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .col{
+        margin: 8px;
+        padding: 12px;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-radius: 8px;
+      }
+}
